@@ -1,0 +1,13 @@
+<div *ngIf="isLoading">Ładowanie danych...</div>
+<div *ngIf="errorMsg" class="error">{{ errorMsg }}</div>
+
+<div *ngIf="!isLoading && !errorMsg">
+  <div [appHighlight]="'#F0F8FF'"  *ngFor="let product of products" class="product-card">
+    <img [src]="product.image" alt="{{ product.title }}" width="100">
+    <h3>{{ product.title | truncate:30 }}</h3>
+    <p>Kategoria: {{ product.category }}</p>
+    <p>{{ product.description | truncate:50 }}</p>
+    <p >Cena: {{ product.price }} $</p>
+    <hr>
+  </div>
+</div>
