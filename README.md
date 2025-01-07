@@ -1,3 +1,6 @@
+https://github.com/Dashiman/Angular-Przodkowo
+
+
 https://fakestoreapi.com/docs
 
 1. NIE KORZYSTAJ Z NARZĘDZI AI - skorzystaj z dokumentacji i forów lub pytaj :)
@@ -5,8 +8,9 @@ https://fakestoreapi.com/docs
 
 2. Ostyluj z wykorzystaniem styli komponentu i globalnych
 Dodaj prosty styling (np. klasa .product-card) do kart produktów.
-Stwórz menu w ramach którego możliwa będzie nawigacja do modułu fake store
+Stwórz menu i w ramach którego możliwa będzie nawigacja do modułu fake store oraz stopkę
 
+przykład: <a routerLink="/home"></a>
 
 3. Filtrowanie listy produktów
 
