@@ -3,7 +3,7 @@ https://fakestoreapi.com/docs
 1. NIE KORZYSTAJ Z NARZĘDZI AI - skorzystaj z dokumentacji i forów lub pytaj :)
 
 
-2. Ostyluj z wykorzsytaniem styli komponentu i globalnych
+2. Ostyluj z wykorzystaniem styli komponentu i globalnych
 Dodaj prosty styling (np. klasa .product-card) do kart produktów.
 Stwórz menu w ramach którego możliwa będzie nawigacja do modułu fake store
 
@@ -13,16 +13,16 @@ Stwórz menu w ramach którego możliwa będzie nawigacja do modułu fake store
 Dodaj do powyższego przykładu input tekstowy, w którym użytkownik może wpisać słowo kluczowe. (event onChange lub button z click)
 W czasie wpisywania filtruj widoczne produkty po tytule (lub kategorii).
 Zaimplementuj tę funkcjonalność w komponencie
-Podświetlanie elementów
+
 
 4. Napisz prostą dyrektywę, która po najechaniu myszką lub kliknięciu powiększy dane dotyczące produkt na liście.
-Wypróbuj różne kombinacje podświetlenia przekazywane jako input dyrektywy.
+Wypróbuj różne kombinacje (zmiana stylu tekstu itp).
 
 
 
 5. Tworzenie własnego pipe’a
 
-Stwórz pipe przycinający długi tekst (np. opis produktu), tak aby w karcie produktu wyświetlał się np. maksymalnie 50 znaków.
+Stwórz pipe, który będzie zaokrąglał cenę do pełnej liczby
 Zadbaj o to, żeby pipe przyjmował parametr określający maksymalną liczbę znaków.
 
 
